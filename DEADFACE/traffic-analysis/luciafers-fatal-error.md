@@ -30,6 +30,7 @@ Following the TCP Stream (right click, Follow > TCP Stream)we find the remote co
  As wget uses HTTP we can see if this tool being used to connect to luciafer can be exported from Wireshark. Top left menu, File > Export Objects > HTTP.
 
  we find the file:
+ 
  <img src="../images/decoder-http.png">
 
  Save this file and then we can get the MD5 hash.
