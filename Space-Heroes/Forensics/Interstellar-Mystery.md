@@ -4,9 +4,10 @@ We've stumbled across a ship in the depths of space. There were no life readings
 
 Can you help us solve this interstellar mystery?
 
-author: condor0010
+**Author:** condor0010
 
 **File Location**
+
 The zip file can be found in ctf-writeups/Space-Heroes/files/chall.zip
 - - -
 
@@ -15,10 +16,13 @@ https://www.jamescoyle.net/how-to/1818-access-a-qcow2-virtual-disk-image-from-th
 
 
 I loaded the nbd kernel module:
+
 `modprobe nbd`
 
 I then attached the two images:
+
 `sudo qemu-nbd -c /dev/nbd2 master0-3.qcow2`
+
 `sudo qemu-nbd -c /dev/nbd1 master0-4.qcow2`
 
 Both images needed to be mounted for to access any of the data. After this I entered Thunar and mounted the drive. I could see a binary file called "e" in there.
@@ -36,8 +40,9 @@ grep flags:
 - i - ignore-case
 - a - text (process binary as if it was text)
 
-![[grep-e.png]]
+![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/grep-e.png?raw=true)
 
 - - -
 **Flag**
+
 shctf{btrfs_is_awsome}

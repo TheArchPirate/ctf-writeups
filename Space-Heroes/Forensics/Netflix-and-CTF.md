@@ -1,11 +1,13 @@
 # Netflix and CTF
 - - -
 **Description**
+
 I don't like watching anything other than TV shows about Space Heroes.
 
-Author: v10l3nt
+**Author:** v10l3nt
 
 **File Location**
+
 Pcap can be found in ctf-writeups/Space-Heroes/files/netflix-and-chill.pcap
 
 - - -
@@ -291,4 +293,5 @@ Each keypress/Lit_ event tells us what letter is being written. There are some T
 
 - - -
 **Flag**
+
 shctf{T1m3-is-th3-ultimat3-curr3Ncy}

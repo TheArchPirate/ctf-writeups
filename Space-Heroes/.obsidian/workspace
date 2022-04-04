@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "94e41ec846ba6c3d",
   "lastOpenFiles": [
-    "README.md.md",
-    "Crypto/Khaaaaaan!.md",
-    "Forensics/Interstellar-Mystery.md",
-    "Forensics/Netflix-and-CTF.md",
-    "Forensics/Future-Stego.md",
-    "Forensics/Space-Captain-Garfield.md",
-    "Forensics/Star-Pcap.md",
+    "README.md",
+    "Sanity-Check/k?.md",
+    "Sanity-Check/Discord.md",
+    "OSINT/Starman.md",
     "OSINT/Launched.md",
     "OSINT/Curious?.md",
-    "OSINT/Starman.md"
+    "Forensics/Star-Pcap.md",
+    "Forensics/Space-Captain-Garfield.md",
+    "Forensics/Netflix-and-CTF.md",
+    "Forensics/Interstellar-Mystery.md"
   ]
 }

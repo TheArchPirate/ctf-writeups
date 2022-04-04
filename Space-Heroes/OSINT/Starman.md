@@ -1,11 +1,12 @@
 # Starman
 - - -
 **Description:**
+
 How far away from earth was the space car on January, 20 2021 at 1515 UTC? Enter distance in terms of Million Km. (Rounded to two decimals) (e.g shctf{12.34})
 
 Wrap in shctf{}
 
-Author: Lil Tipo
+**Author:** Lil Tipo
 
 - - -
 
@@ -13,12 +14,13 @@ The space car mentioned in the description is the Tesla Roadster which was used 
 
 https://theskylive.com/roadster-info
 
-![[spaceman-calendar.png]]
+![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/spaceman-calendar.png?raw=true)
 
-Using this calendar we can see how far Spacman was from Earth.
+Using this calendar we can see how far Spaceman was from Earth.
 
-![[spaceman-distance-from-earth.png]]
+![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/spaceman-distance-from-earth.png?raw=true)
 
 - - -
 **Flag**
+
 shctf{56.68}

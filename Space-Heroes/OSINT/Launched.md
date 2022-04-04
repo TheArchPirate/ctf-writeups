@@ -2,9 +2,9 @@
 - - -
 What is the name of the launch and the payload in this picture. (flag format is shctf{rocket_payload}, spaces are underscores)
 
-author: GlitchArchetype
+**Author:** GlitchArchetype
 
-![[launch.jpg]]
+![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/launch.jpg?raw=true)
 
 - - -
 
@@ -113,11 +113,12 @@ https://www.google.co.uk/maps/place/28%C2%B035'09.6%22N+80%C2%B039'02.5%22W/@28.
 
 This will show us that the locaiton is the Kennedy Space Centre. Now we can look for rockets launched on the 11 April from the Kennedy Space Centre. Wikipedia contains a [list of rockets launched in 2019](https://en.wikipedia.org/wiki/2019_in_spaceflight). In the table there exists an entry for the Falcon Heavy carrying ArabSat-6a.
 
-![[flacon-heavy-2019.png]]
+![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/flacon-heavy-2019.png?raw=true)
 
 We can now build the flag
 
 - - -
 
 **Flag**
+
 shctf{falconheavy_arabsat-6a}
