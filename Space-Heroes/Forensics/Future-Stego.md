@@ -13,6 +13,7 @@ I started out by trying to use binwalk to see if I could see or extract anything
 ![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/stegseek-shuttlesteg.png?raw=true)
 
 I could now cat out the flag:
+
 ![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/shuttlesteg-file.png?raw=true)
 
 - - -

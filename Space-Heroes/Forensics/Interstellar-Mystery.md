@@ -27,13 +27,14 @@ I then attached the two images:
 
 Both images needed to be mounted for to access any of the data. After this I entered Thunar and mounted the drive. I could see a binary file called "e" in there.
 
-![[binary-e.png]]
+![](https://github.com/TheArchPirate/ctf-writeups/blob/main/Space-Heroes/images/binary-e.png?raw=true)
 
 I was wondering if I could head or tail this to get anything useful, but that wasn't the case. I then tried to grep the file but kept getting an error about a Binary file. I found a stackoverflow thread that helped with this:
 
 https://stackoverflow.com/questions/23512852/grep-binary-file-matches-how-to-get-normal-grep-output
 
 With this I could get the flag with grep:
+
 `grep -ia shctf e`
 
 grep flags:
